@@ -33,6 +33,7 @@ public class HideImageOnTouch : MonoBehaviour
                         Debug.Log("Image object has been hidden.");
                         // 이미지 오브젝트 비활성화
                         imageObject.SetActive(false);
+                        Application.Quit();
                     }
                 }
                 else
